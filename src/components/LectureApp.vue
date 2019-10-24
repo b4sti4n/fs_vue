@@ -2,6 +2,7 @@
   <div class="lecture-wrapper">
     <!-- Insert Content here -->
     <h3>Eine Komponente (Parent)</h3>
+    <slot>
   </div>
 </template>
 
@@ -23,8 +24,7 @@ export default {
 .lecture-wrapper {
   width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto;
   padding: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, .3);
 }
