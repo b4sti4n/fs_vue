@@ -2,7 +2,7 @@
   <div class="lecture-wrapper">
     <!-- Insert Content here -->
     <h3>Eine Komponente (Parent)</h3>
-    <slot>
+    <slot />
   </div>
 </template>
 
