@@ -3,6 +3,7 @@
     <img class="logo" src="../assets/logo.png">
     <h1>Vue.js Vorstellung</h1>
     <p>powered by freischwimmer</p>
+<<<<<<< HEAD
 
     <!-- Card -->
     <lecture class="lecture">
@@ -16,17 +17,24 @@
       </div>
     </lecture>
 
+=======
+    <lecture>
+      <fs-list />
+    </lecture>
+>>>>>>> Add editable list
   </div>
 </template>
 
 <script>
 import Card from '@/components/card.vue';
 import Lecture from '@/components/LectureApp.vue';
+import fsList from '@/components/fsList.vue';
 
 export default {
   name: 'home',
   components: {
     Lecture,
+<<<<<<< HEAD
     Card,
   },
   data() {
@@ -58,6 +66,9 @@ export default {
         },
       ],
     };
+=======
+    fsList,
+>>>>>>> Add editable list
   },
 };
 </script>
