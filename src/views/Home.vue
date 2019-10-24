@@ -3,17 +3,21 @@
     <img class="logo" src="../assets/logo.png">
     <h1>Vue.js Vorstellung</h1>
     <p>powered by freischwimmer</p>
-    <lecture/>
+    <lecture>
+      <fs-list />
+    </lecture>
   </div>
 </template>
 
 <script>
 import Lecture from '@/components/LectureApp.vue';
+import fsList from '@/components/fsList.vue';
 
 export default {
   name: 'home',
   components: {
     Lecture,
+    fsList,
   },
 };
 </script>
