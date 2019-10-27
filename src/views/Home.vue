@@ -32,6 +32,7 @@ export default {
   components: {
     Lecture,
     Card,
+    fsList,
   },
   data() {
     return {
