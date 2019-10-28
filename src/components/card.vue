@@ -60,7 +60,7 @@ export default {
   data() {
     return {
       date: new Date(),
-      dates: ['SO', 'MO', 'DI', 'Mi', 'DO', 'FR', 'SA'],
+      dates: ['SO', 'MO', 'DI', 'MI', 'DO', 'FR', 'SA'],
       hide: true,
     };
   },

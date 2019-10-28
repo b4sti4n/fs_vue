@@ -15,7 +15,6 @@
         />
       </div>
     </lecture>
-    
     <lecture>
       <fs-list />
     </lecture>
